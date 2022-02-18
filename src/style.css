@@ -144,6 +144,26 @@ form .button:hover {
   color: green;
 }
 
+.container-success button {
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #8b87b6;
+  cursor: pointer;
+}
+.container-success button:hover {
+  color: #71b7e6;
+}
+.box-success {
+  display: flex;
+}
+.box-success div {
+  padding-left: 30px;
+}
+.container-success h1 {
+  color: rgb(46, 119, 46);
+}
+
 @media (max-width: 584px) {
   .container {
     max-width: 100%;
